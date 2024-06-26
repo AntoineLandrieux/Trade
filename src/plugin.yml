@@ -1,0 +1,18 @@
+name: trade
+author: Trankilium
+version: 1.0
+main: fr.antoinelandrieux.trade.Main
+api-version: 1.13
+commands:
+  trade:
+    usage: /trade <player>
+    description: Lance un trade avec un autre joueur
+    permission-message: Tu ne peux pas utiliser cette commande !
+  tradeaccept:
+    usage: /tradeaccept
+    description: Accepte la dernière demande de trade
+    permission-message: Tu ne peux pas utiliser cette commande !
+  tradedeny:
+    usage: /tradedeny
+    description: Refuse la dernière demande de trade
+    permission-message: Tu ne peux pas utiliser cette commande !
